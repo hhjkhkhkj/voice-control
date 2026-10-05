@@ -1,0 +1,14 @@
+# 装依赖：py -m pip install -r requirements.txt
+
+# 录音 / 放音
+sounddevice>=0.5.0
+soundfile>=0.12.0
+numpy>=1.24.0
+
+# 调 API
+requests>=2.31.0
+
+# 网页版才需要（只用脚本的话可以不装）
+fastapi>=0.110.0
+uvicorn>=0.27.0
+python-multipart>=0.0.9

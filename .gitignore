@@ -1,0 +1,19 @@
+# ★ 密钥文件，绝不能传
+config.py
+.env
+
+# 录音 / 合成的临时音频
+*.wav
+*.mp3
+最近一句.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
